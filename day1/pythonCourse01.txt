@@ -1,0 +1,11 @@
+washout for semantic errors
+GP: use #!/usr/bin/env python
+
+if __name__ == '__main__':
+
+lists: [x for x in l if x < 3 or x > 7]
+could create a (sub) list with elements in another list
+
+i/o: python script < data.txt
+python script < data.txt | wc
+python script < data.txt | wc > wc.txt  #text as output
